@@ -29,7 +29,7 @@ class LocalBinaryPatterns:
                     for c in range(0,image.shape[1], windowsize_c):
                         
                         #Dividing the image into regions
-                        window = image[r:r+windowsize_r,c:c+windowsize_c]
+                        window = image[r:r+windowsize_r,c:c+windowsize_c] 
                         
                         #local_binary_pattern()
                         #window: region of grayscale image
