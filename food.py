@@ -14,7 +14,7 @@ class LocalBinaryPatterns:
         self.numPoints = numPoints
         self.radius = radius
     
-    def describe(self, image, eps=1e-7):
+    def describe(self, image, eps=1e-7): 
               windowsize_r = 125
               windowsize_c = 100
               # Crop out the window and calculate the histogram
