@@ -261,6 +261,7 @@ for i, val in enumerate(labelCounts):
     setFamFood(i,val);
 
 print("\n")
+print("\n")
 print("The Restaurant is famous for following food items :")
 
 #loop over displaying the list of food labels corresponding to the dataset 
